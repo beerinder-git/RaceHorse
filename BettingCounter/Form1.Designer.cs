@@ -58,7 +58,7 @@
             this.racetrack.BackColor = System.Drawing.SystemColors.Control;
             this.racetrack.Image = ((System.Drawing.Image)(resources.GetObject("racetrack.Image")));
             this.racetrack.Location = new System.Drawing.Point(-1, -79);
-            this.racetrack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.racetrack.Margin = new System.Windows.Forms.Padding(4);
             this.racetrack.Name = "racetrack";
             this.racetrack.Size = new System.Drawing.Size(1069, 527);
             this.racetrack.TabIndex = 0;
@@ -69,7 +69,7 @@
             // 
             this.Horse1.Image = ((System.Drawing.Image)(resources.GetObject("Horse1.Image")));
             this.Horse1.Location = new System.Drawing.Point(17, 4);
-            this.Horse1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Horse1.Margin = new System.Windows.Forms.Padding(4);
             this.Horse1.Name = "Horse1";
             this.Horse1.Size = new System.Drawing.Size(83, 57);
             this.Horse1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -80,7 +80,7 @@
             // 
             this.Horse2.Image = ((System.Drawing.Image)(resources.GetObject("Horse2.Image")));
             this.Horse2.Location = new System.Drawing.Point(16, 124);
-            this.Horse2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Horse2.Margin = new System.Windows.Forms.Padding(4);
             this.Horse2.Name = "Horse2";
             this.Horse2.Size = new System.Drawing.Size(83, 57);
             this.Horse2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -91,7 +91,7 @@
             // 
             this.Horse3.Image = ((System.Drawing.Image)(resources.GetObject("Horse3.Image")));
             this.Horse3.Location = new System.Drawing.Point(16, 258);
-            this.Horse3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Horse3.Margin = new System.Windows.Forms.Padding(4);
             this.Horse3.Name = "Horse3";
             this.Horse3.Size = new System.Drawing.Size(83, 57);
             this.Horse3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -102,7 +102,7 @@
             // 
             this.Horse4.Image = ((System.Drawing.Image)(resources.GetObject("Horse4.Image")));
             this.Horse4.Location = new System.Drawing.Point(17, 366);
-            this.Horse4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Horse4.Margin = new System.Windows.Forms.Padding(4);
             this.Horse4.Name = "Horse4";
             this.Horse4.Size = new System.Drawing.Size(83, 57);
             this.Horse4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -126,9 +126,9 @@
             this.groupBox1.Controls.Add(this.JimButton);
             this.groupBox1.Controls.Add(this.MaximumBet);
             this.groupBox1.Location = new System.Drawing.Point(-1, 455);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1069, 207);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
@@ -183,7 +183,7 @@
             // 
             this.race.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.race.Location = new System.Drawing.Point(856, 145);
-            this.race.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.race.Margin = new System.Windows.Forms.Padding(4);
             this.race.Name = "race";
             this.race.Size = new System.Drawing.Size(180, 37);
             this.race.TabIndex = 9;
@@ -194,7 +194,7 @@
             // HorseNumber
             // 
             this.HorseNumber.Location = new System.Drawing.Point(529, 106);
-            this.HorseNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.HorseNumber.Margin = new System.Windows.Forms.Padding(4);
             this.HorseNumber.Maximum = new decimal(new int[] {
             4,
             0,
@@ -227,31 +227,20 @@
             // BettingAmount
             // 
             this.BettingAmount.Location = new System.Drawing.Point(531, 47);
-            this.BettingAmount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BettingAmount.Margin = new System.Windows.Forms.Padding(4);
             this.BettingAmount.Maximum = new decimal(new int[] {
             100000,
-            0,
-            0,
-            0});
-            this.BettingAmount.Minimum = new decimal(new int[] {
-            5,
             0,
             0,
             0});
             this.BettingAmount.Name = "BettingAmount";
             this.BettingAmount.Size = new System.Drawing.Size(84, 22);
             this.BettingAmount.TabIndex = 6;
-            this.BettingAmount.Value = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.BettingAmount.ValueChanged += new System.EventHandler(this.BettingAmount_ValueChanged);
             // 
             // Bets
             // 
             this.Bets.Location = new System.Drawing.Point(364, 37);
-            this.Bets.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bets.Margin = new System.Windows.Forms.Padding(4);
             this.Bets.Name = "Bets";
             this.Bets.Size = new System.Drawing.Size(112, 44);
             this.Bets.TabIndex = 5;
@@ -264,7 +253,7 @@
             this.MikeRButton.AutoSize = true;
             this.MikeRButton.Checked = true;
             this.MikeRButton.Location = new System.Drawing.Point(19, 119);
-            this.MikeRButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MikeRButton.Margin = new System.Windows.Forms.Padding(4);
             this.MikeRButton.Name = "MikeRButton";
             this.MikeRButton.Size = new System.Drawing.Size(58, 21);
             this.MikeRButton.TabIndex = 3;
@@ -277,7 +266,7 @@
             // 
             this.RogerRButton.AutoSize = true;
             this.RogerRButton.Location = new System.Drawing.Point(19, 90);
-            this.RogerRButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RogerRButton.Margin = new System.Windows.Forms.Padding(4);
             this.RogerRButton.Name = "RogerRButton";
             this.RogerRButton.Size = new System.Drawing.Size(68, 21);
             this.RogerRButton.TabIndex = 2;
@@ -289,7 +278,7 @@
             // 
             this.JimButton.AutoSize = true;
             this.JimButton.Location = new System.Drawing.Point(19, 60);
-            this.JimButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.JimButton.Margin = new System.Windows.Forms.Padding(4);
             this.JimButton.Name = "JimButton";
             this.JimButton.Size = new System.Drawing.Size(50, 21);
             this.JimButton.TabIndex = 1;
@@ -321,7 +310,7 @@
             this.Controls.Add(this.Horse1);
             this.Controls.Add(this.racetrack);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
