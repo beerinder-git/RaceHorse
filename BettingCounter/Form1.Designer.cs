@@ -233,9 +233,19 @@
             0,
             0,
             0});
+            this.BettingAmount.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.BettingAmount.Name = "BettingAmount";
             this.BettingAmount.Size = new System.Drawing.Size(84, 22);
             this.BettingAmount.TabIndex = 6;
+            this.BettingAmount.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // Bets
             // 
